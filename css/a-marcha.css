@@ -196,7 +196,6 @@ body {
     font-size:.96em;
     text-align: center;
     color:#fff;
-    
     background-color: #CB4833;
     width: 100%;
     padding: 10px 0px 10px 0px;
@@ -206,7 +205,6 @@ body {
     font-size:.96em;
     text-align: center;
     color:#fff;
-    
     background-color: #B2B2B2;
     width: 100%;
     padding: 10px 0px 10px 0px;
@@ -228,7 +226,8 @@ body {
     width: 100%;
     margin-left:auto; 
     margin-right:auto; 
-    margin-top:-10px;}
+    margin-top:-10px;
+}
 .classificacoes-desktop {
     display:none;
 }
@@ -246,6 +245,11 @@ body {
     display: none;
 }
 
+footer {
+    font-size:0.5em;
+    width: 80%;
+    margin: auto;
+}
 
 @media screen and (min-width: 480px) {
     .atalhos ul {width: 40%;}
@@ -263,6 +267,7 @@ body {
     #paises-medalhados > span > img { width: 30%; }
     #desktop-classificacao {display: none;}
     .records {width:20%;}
+    footer {width: 40%;}
 }
 
 @media screen and (min-width: 768px) {
@@ -294,7 +299,7 @@ body {
     .regulamento-simbolos .caixinha {margin-left: 20px; width:25%; display: inline-block; margin-right: 10px;}
    .regulamento-simbolos img {width: 25%; display:inline; margin: auto; margin-left:60px;}
     .regulamento-simbolos > div {width: 100%; display: block; margin-left:60px;}
-    .botoes nav {display:  block;}
+    .botoes nav {display:block;}
     .classificacoes-desktop {display:block; width:45%; margin: auto;}
     #paises-medalhados div {display: none;}
     #paises-medalhados > span { display: flex; width: 60%; align-items: center; margin: auto; }
